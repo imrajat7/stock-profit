@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Stock Profit</title>
+    </head>
+    <body>
+        <h1>Stock profit</h1>
+        <div class="container">
+            <label for="initial-price"> Initial Price</label>
+            <input
+                type="number"
+                id="initial-price"
+                placeholder="Enter price here"
+                required
+            />
+            <label for="stocks-quantity"> Quantity of Stocks</label>
+            <input
+                type="number"
+                id="stocks-quantity"
+                placeholder="Enter quantity of stocks bought"
+            />
+            <label for="current-price"> Current price </label>
+            <input
+                type="number"
+                id="current-price"
+                placeholder="Enter current price"
+            />
+            <button id="submit-btn">Check Now</button>
+            <div class="output" id="output-box"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

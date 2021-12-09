@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+
+.output {
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 420px) {
+    input {
+        width: 100%;
+    }
+}
